@@ -155,7 +155,6 @@ const educationInfo = {
   ]
 };
 
-
 // Your top 3 proficient stacks/tech experience
 
 const techStack = {
@@ -198,7 +197,6 @@ const workExperiences = {
   ]
 };
 
-
 /* Your Open Source Section to View Your Github Pinned Projects
 To know how to get github key look at readme.md */
 
@@ -211,12 +209,14 @@ const openSource = {
 
 const bigProjects = {
   title: "Projects",
-  subtitle: "Major academic projects demonstrating real-world problem solving and full-stack development skills",
+  subtitle:
+    "Major academic projects demonstrating real-world problem solving and full-stack development skills",
   projects: [
     {
       image: require("./assets/images/bvritConnectLogo.png"),
       projectName: "BVRIT Connect – Alumni-Student Platform",
-      projectDesc: "A full-stack web app built to connect BVRIT alumni with students for networking, mentorship, and career growth. Features include role-based login, alumni directory, opportunity board, event manager, and chatbot assistant.",
+      projectDesc:
+        "A full-stack web app built to connect BVRIT alumni with students for networking, mentorship, and career growth. Features include role-based login, alumni directory, opportunity board, event manager, and chatbot assistant.",
       footerLink: [
         {
           name: "Visit Website",
@@ -231,7 +231,8 @@ const bigProjects = {
     {
       image: require("./assets/images/cropPricePrediction.jpeg"),
       projectName: "Crop Price Prediction using Machine Learning",
-      projectDesc: "Developed a regression-based ML model to predict crop prices using historical market data. Applied data preprocessing, feature encoding, and trained models like Linear Regression and Decision Trees to assist farmers with pricing insights.",
+      projectDesc:
+        "Developed a regression-based ML model to predict crop prices using historical market data. Applied data preprocessing, feature encoding, and trained models like Linear Regression and Decision Trees to assist farmers with pricing insights.",
       footerLink: [
         {
           name: "GitHub Repo",
@@ -243,18 +244,18 @@ const bigProjects = {
   display: true
 };
 
-
-
 // Achievement Section
 // Include certificates, talks etc
 
 const achievementSection = {
   title: emoji("Achievements And Certifications 🏆 "),
-  subtitle: "Achievements, Certifications, Award Letters and Some Cool Stuff that I have done!",
+  subtitle:
+    "Achievements, Certifications, Award Letters and Some Cool Stuff that I have done!",
   achievementsCards: [
     {
       title: "Best Paper Award – AI-Enhanced Alumni Association Platform",
-      subtitle: "Received Best Paper Award at National Seminar on Emerging Trends in Artificial Intelligence, MJPTBCWRDC(W), Siddipet, March 2025.",
+      subtitle:
+        "Received Best Paper Award at National Seminar on Emerging Trends in Artificial Intelligence, MJPTBCWRDC(W), Siddipet, March 2025.",
       image: require("./assets/images/paper presentation cert.png"),
       imageAlt: "Best Paper Award Certificate",
       footerLink: [
@@ -266,7 +267,8 @@ const achievementSection = {
     },
     {
       title: "Deloitte Australia Data Analytics Job Simulation",
-      subtitle: "Completed Deloitte’s Data Analytics Virtual Internship via Forage, gaining hands-on experience in data analysis and visualization workflows. Completed in June 2025.",
+      subtitle:
+        "Completed Deloitte’s Data Analytics Virtual Internship via Forage, gaining hands-on experience in data analysis and visualization workflows. Completed in June 2025.",
       image: require("./assets/images/deloitteLogo.png"),
       imageAlt: "Deloitte Logo",
       footerLink: [
@@ -278,7 +280,8 @@ const achievementSection = {
     },
     {
       title: "Responsive Web Designing Certification",
-      subtitle: "Earned certification in HTML, CSS, JavaScript from Infosys Springboard in 2024.",
+      subtitle:
+        "Earned certification in HTML, CSS, JavaScript from Infosys Springboard in 2024.",
       image: require("./assets/images/infosysLogo.png"),
       imageAlt: "Infosys Logo",
       footerLink: [

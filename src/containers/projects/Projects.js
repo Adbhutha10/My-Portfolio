@@ -51,9 +51,7 @@ export default function Projects() {
                 `Github Object for repository number : ${i} is undefined`
               );
             }
-            return (
-              <GithubRepoCard repo={v} key={v.node.id} isDark={isDark} />
-            );
+            return <GithubRepoCard repo={v} key={v.node.id} isDark={isDark} />;
           })}
         </div>
         <Button
